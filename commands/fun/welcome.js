@@ -1,9 +1,9 @@
 // Ping Module
 module.exports = {
     // Name of Command
-    name: 'Welcome',
+    name: 'welcome',
     // Description of Command
-    description: 'Welcome!',
+    description: 'welcome!',
     // Guild - TRUE
     guildOnly: true,
     // Cooldown
