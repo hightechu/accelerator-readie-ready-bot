@@ -13,10 +13,10 @@ module.exports = {
     // Execute Command - Parameters: message
     execute(message, args) {
         // Send Message
-        var baseUrl = "https://www.googleapis.com/books/v1/volumes?q="
-        var query = args.toString()
-        var queryUrl = baseUrl + query
-        axios.get(queryUrl)
+        var baseUrl = "https://www.googleapis.com/books/v1/volumes?q=flowers"
+        //var query = args.toString()
+        //var queryUrl = baseUrl + query
+        axios.get(baseUrl)
   .then(function (response) {
     // handle success
    message.channel.send(response.data);
