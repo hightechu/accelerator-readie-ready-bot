@@ -12,10 +12,13 @@ module.exports = {
     // Execute Command - Parameters: message
     execute(message, args) {
         // Send Message
-        var baseUrl = "https://www.googleapis.com/books/v1/volumes?q=flowers"
+        //var baseUrl = "https://www.googleapis.com/books/v1/volumes?q=flowers"
         //var query = args.toString()
         //var queryUrl = baseUrl + query
-        fetch('https://covidapi.info/api/v1/global/2021-08-01')
+        
+        const date = args;
+        const url = 'https://covidapi.info/api/v1/global/2021-08-01' + date;
+        fetch(url)
         .then(response => response.json())
         .then((data) => {
             const confirmedCases = data.result.confirmed;
