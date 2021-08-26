@@ -12,5 +12,6 @@ module.exports = {
     execute(message) {
         // Send Message
         message.channel.send('paimon is emergency food!');
+            sentMessage.react('🥫')
     },
 };
