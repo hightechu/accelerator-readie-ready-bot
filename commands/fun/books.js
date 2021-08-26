@@ -23,10 +23,11 @@ module.exports = {
   })
   .catch(function (error) {
     // handle error
-    console.log(error);
+    message.channel.send(error)
   })
   .then(function () {
     // always executed
+    message.channel.send("There was an error! Oh no!")
   });
     },
 };
