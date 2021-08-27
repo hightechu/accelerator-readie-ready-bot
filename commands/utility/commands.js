@@ -3,11 +3,11 @@ const Discord = require('discord.js');
 // HighTechU Module
 module.exports = {
     // Name of Command
-    name: 'commands2 ',
+    name: 'commands',
     // Description of Command
     description: 'List of commands',
     // Aliases
-    aliases: ['htu'],
+    aliases: ['cmds'],
     // Execute Commnad - Paramenters: message
     execute(message) {
         // Create Embed
