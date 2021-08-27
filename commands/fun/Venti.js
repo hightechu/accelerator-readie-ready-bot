@@ -1,4 +1,4 @@
-odule.exports = {
+module.exports = {
     // Name of Command
     name: 'venti',
     // Description of Command
