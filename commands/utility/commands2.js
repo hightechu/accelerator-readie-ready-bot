@@ -38,7 +38,7 @@ module.exports = {
                 { name: '!Please', value: 'aww thanks!' },
             )
             .setTimestamp()
-            .setFooter('Powered by UVic Engineering', 'https://hightechu.ca/wp-content/uploads/2019/09/logo-2-150x150.png');
+            .setFooter('Powered by HightechU', 'https://cdn.discordapp.com/attachments/880188601726558211/880878747199361094/untitled_artwork.png');
         // Send Message
         message.channel.send(embed);
     },
