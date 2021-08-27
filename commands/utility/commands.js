@@ -19,7 +19,7 @@ module.exports = {
             .setDescription('Here is the list of commands Readie-Ready has to offer :D')
             .setThumbnail('https://cdn.discordapp.com/attachments/880188601726558211/880584626484179045/unknown.png')
             .addFields(
-                { name: 'Utility commands'},
+                { name: 'Utility commands', value: 'Commands that are utility.'},
                 { name: '\u200B', value: '\u200B' },
                 { name: '!books [keyword]', value: 'Searches the list of books by keyword.', inline: true },
                 { name: '!morebyauthor [author last name]', value: 'this shows the other books published by author', inline: true },
