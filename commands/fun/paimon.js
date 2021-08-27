@@ -11,6 +11,9 @@ module.exports = {
     // Execute Command - Parameters: message
     execute(message) {
         // Send Message
-        message.channel.send('paimon is emergency food!');
+        message.channel.send('Paimon is emergency food!').then(sentMessage => {
+            // Add Reaction
+            sentMessage.react('😃');
+        });
     },
 };
