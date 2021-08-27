@@ -13,7 +13,7 @@ module.exports = {
         // Send Message
         message.channel.send('Paimon is emergency food!').then(sentMessage => {
             // Add Reaction
-            sentMessage.react('😃');
+            sentMessage.react('🥫');
         });
     },
 };
