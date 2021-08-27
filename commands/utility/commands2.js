@@ -19,14 +19,13 @@ module.exports = {
             .setDescription('Here is the list of commands Readie-Ready has to offer :D')
             .setThumbnail('https://cdn.discordapp.com/attachments/880188601726558211/880584626484179045/unknown.png')
             .addFields(
-                { name: 'Utility commands', value: ''},
+                { name: 'Utility commands', value: ' '},
                 { name: '\u200B', value: '\u200B' },
                 { name: '!books [keyword]', value: 'Searches the list of books by keyword.', inline: true },
                 { name: '!morebyauthor [author last name]', value: 'this shows the other books published by author', inline: true },
                 { name: '!Welcome', value: 'Sends a welcome message 😃.' },
                 { name: '!Reload [command name]', value: 'Resets a cooldown time of a command!' },
-                { name: '!help [command]', value: 'The bot will send you info on that command.' },
-                
+
                 { name: '\u200B', value: '\u200B' },
                 { name: 'Fun commands!', value: 'Commands for fun' },
                 { name: '!beep', value: 'Bot responds with boop :D' },
@@ -39,7 +38,7 @@ module.exports = {
                 { name: '!Please', value: 'aww thanks!' },
             )
             .setTimestamp()
-            .setFooter('Powered by UVic Engineering', 'https://hightechu.ca/wp-content/uploads/2019/09/logo-2-150x150.png');
+            .setFooter('Powered by HightechU', 'https://cdn.discordapp.com/attachments/880188601726558211/880878747199361094/untitled_artwork.png');
         // Send Message
         message.channel.send(embed);
     },
