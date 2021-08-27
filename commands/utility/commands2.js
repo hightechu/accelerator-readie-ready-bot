@@ -25,8 +25,7 @@ module.exports = {
                 { name: '!morebyauthor [author last name]', value: 'this shows the other books published by author', inline: true },
                 { name: '!Welcome', value: 'Sends a welcome message 😃.' },
                 { name: '!Reload [command name]', value: 'Resets a cooldown time of a command!' },
-                { name: '!help [command]', value: 'The bot will send you info on that command.' },
-                
+
                 { name: '\u200B', value: '\u200B' },
                 { name: 'Fun commands!', value: 'Commands for fun' },
                 { name: '!beep', value: 'Bot responds with boop :D' },
