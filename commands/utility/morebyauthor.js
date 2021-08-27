@@ -29,7 +29,7 @@ module.exports = {
                 fetch('https://www.googleapis.com/books/v1/volumes/' + id.toString())
                 .then(res => res.json())
                 .then(json => {
-                    message.channel.send(json.volumeInfo.authors.join(','))
+                    message.channel.send(json.volumeInfo.title)
                 })
             })
         })
