@@ -19,4 +19,8 @@ The project uses the [MIT LICENSE](https://choosealicense.com/licenses/mit/).
 
 ## Authors
 
-- [@hightechu](https://github.com/hightechu)
+- Samatha
+- Matt 
+- Roshini
+- Benno
+- Andrew F
