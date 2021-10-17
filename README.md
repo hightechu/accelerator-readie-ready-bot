@@ -2,7 +2,7 @@
 
 ## About
 
-For more information about Readie Ready bot commands visit the "[documentation](https://hightechu.github.io/accelerator-readieready-bot/docs)".
+For more information on bot commands visit the Readie Ready [documentation](https://hightechu.github.io/accelerator-readieready-bot/docs).
 
 ## Screenshots
 
